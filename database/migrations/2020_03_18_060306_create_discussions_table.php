@@ -22,6 +22,7 @@ class CreateDiscussionsTable extends Migration
             $table->integer('channel_id');
             $table->timestamps();
         });
+
     }
 
     /**
